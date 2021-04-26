@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Poppins:wght@400&display=swap');
+</style>
+
+body h2,p{
+    margin:0;
+    padding:0;
+    
+}
+body {
+    background-color: hsl(257, 40%, 49%);
+    padding: 2em;
+    background-image: url(bg-desktop\ \(1\).svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: open sans;
+}
+header img{
+    width: 15%;
+}
+main{
+    display: flex;
+    margin-top: 2em;
+}
+.mock-img{
+    width: 45%;
+    flex-basis: 50%;
+}
+.content{
+    width: 35%;
+    margin: 3em auto;
+}
+.content h2{
+    font-size: 35px;
+    color: white;
+    font-family: "Poppins";
+}
+.content p{
+    padding: 1em oem;
+    color:rgb(236, 235, 235);
+    font-size:14px;
+    line-height:25px;
+}
+.content button{
+    padding: 1em;
+    border-radius: 30px ;
+    width:40% ;
+    border: none;
+    color:purple;
+    border: none;
+}
+.content button:hover{
+    background-color:purple;
+    color: white;
+}
+
+footer{
+    float: right;
+}
+footer .fab{
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 0.5em;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+footer .fab:hover{
+    border-color: purple;
+    color:purple;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .header img{
+        width: 30%;
+    }
+    main{
+       display: block;
+}
+    main .img{
+       width: 100%;
+}
+
+/*mobile screen sizes */
+
+@media only screen and (max-width: 600px) {
+}
+header img{
+    width: 50%;
+}
+main{
+    display:block;
+}
+main img{
+    width: 100%;
+}
+.content{
+    width:100% !important;
+    text-align:center;
+    margin: 2em auto;
+}
+.content h2{
+    font-size: 20px;
+}
+.content button{
+    width: 80%;
+}
+footer{
+    float: none;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+ 
+}    
+main{
+    display: block;
+}
+ main .img{
+    width: 100% !important
+}
+.content{
+    width: 100;
+}
+.content h2{
+    font-size: 47px;
+}
